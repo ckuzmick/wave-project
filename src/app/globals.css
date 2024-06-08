@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overscroll-behavior: none;
+}
+
+#title-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#title-section h1 {
+    margin-top: 30vh;
+    font-size: 5em;
+}
+
+#introduction-section {
+    font-size: 1.5em;
+    margin-top: 20px;
+    height: 100vh;
+}
