@@ -3,23 +3,122 @@ body {
     overscroll-behavior: none;
 }
 
-#title-section {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
+section {
     height: 100vh;
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
+#title-section {
+    padding: 50px;
+    text-align: left;
+    color: white;
+}
+
 #title-section h1 {
-    margin-top: 30vh;
-    font-size: 5em;
+    font-size: 5vw;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    line-height: 0.85;
+}
+
+#title-section h2 {
+    width: 30vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#title-section p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title-background {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0.7);
 }
 
 #introduction-section {
-    font-size: 1.5em;
+    padding: 20px;
+}
+
+#introduction-section div, #how-they-work > div, #modulation > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+#em-spectrum {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.em-spectrum-image-container {
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/EM_Spectrum_Properties_edit.svg/2560px-EM_Spectrum_Properties_edit.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#em-spectrum div {
+    padding-top: 20px;
+    max-width: 506px;
+    font-size: 20px;
+}
+
+.portrait {
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+#history .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.text-section {
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.modulation-image {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+    margin: 10px;
+}
+
+#modulation {
+    padding: 20px;
+}
+
+#modulation > div > div {
     margin-top: 20px;
-    height: 100vh;
 }
