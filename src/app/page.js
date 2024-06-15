@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { BlockMath, InlineMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
-import { style } from "d3";
 
 export default function Home() {
   return (
@@ -36,7 +35,7 @@ export default function Home() {
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Amfm3-en-de.gif" className="modulation-image"/>
         <div>Amplitude modulation (AM) and frequency modulation (FM) are two different ways of sending what can be the same signal. The difference between them is in the carrier wave, the one actually sent and received.</div>
       </div></section>
-      
+
     </main>
   );
 }
