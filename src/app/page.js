@@ -20,7 +20,7 @@ export default function Home() {
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Heinrich_Rudolf_Hertz.jpg" className="portrait"/>
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Guglielmo_Marconi.jpg" className="portrait"/>
         </div>
-        <div className="text-section">Radio waves were proved by Heinrich Hertz in the late 1880’s.  Shortly after this discovery, another man, named Guglielmo Marconi began to create the first functioning radio, to wirelessly transmit telegraphs. In today’s world, radio waves, can be used to communicate from long distances, television broadcasts, ect.</div>
+        <div className="text-section">Radio waves were proved by Heinrich Hertz in the late 1880s.  Shortly after this discovery, another man, named Guglielmo Marconi began to create the first functioning radio, to wirelessly transmit telegraphs. In today’s world, radio waves, can be used to communicate from long distances, television broadcasts, ect.</div>
         </div>
       </section>
       <section id="em-spectrum">
@@ -51,7 +51,7 @@ export default function Home() {
         <img src="fm.svg" id="fm-visual-graph"/>
       </section>
       <section id="fm-math"><div className="container">
-        <div>The math used to graph the equations above is relatively standard for frequency modulation. Here's the equation that wave used to graph the above equation:</div>
+        <div>The math used to graph the equations above is relatively standard for frequency modulation. Here is the equation that wave used to graph the above equation:</div>
         <BlockMath math="y(t) = A \cos(2\pi f_c t + k_f \int_{0}^{t} x(\tau) d\tau)"/>
         <div className="above-math-line">Where:</div>
         <div className="math-line"><InlineMath math="y(t)"/> is the modulated wave</div>
