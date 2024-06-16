@@ -44,10 +44,10 @@ section {
     padding: 20px;
 }
 
-#introduction-section div, #how-they-work > div, #modulation > div {
+#introduction-section div, #how-they-work > div, #modulation > div, .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin: auto;
     height: 100%;
     width: 100%;
@@ -121,4 +121,101 @@ section {
 
 #modulation > div > div {
     margin-top: 20px;
+}
+
+#fm-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fm-intro > div {
+    max-width: 600px;
+    font-size: 20px;
+}
+
+#fm-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fm-visual-graph {
+    height: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#fm-label-1 {
+    top: 30px;
+    right: 100px;
+    position: relative;
+}
+
+#fm-label-2 {
+    top: 252.5px;
+    right: 100px;
+    position: relative;
+}
+
+#fm-label-3 {
+    top: 475px;
+    right: 100px;
+    position: relative;
+}
+
+.math-line {
+    padding: 5px 0; 
+}
+
+.above-math-line {
+    padding-bottom: 5px;
+}
+
+.below-math-line {
+    padding-top: 5px;
+}
+
+.team-portrait {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;  
+}
+
+#team {
+    padding: 20px;
+}
+
+#team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.team-portraits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name-portrait-pair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.team-name {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
 }
